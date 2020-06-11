@@ -17,13 +17,13 @@ def words_five_letters_long(text)
 
 end
 
-def first_word_capitalized_and_ends_with_punctuation?(text)
-  if text.match(\^[A-Z].*[a-zA-Z][!?.]$\)
-    true 
-  else
-    false 
-  end 
-end
+# def first_word_capitalized_and_ends_with_punctuation?(text)
+#   if text.match(\^[A-Z].*[a-zA-Z][!?.]$\)
+#     true 
+#   else
+#     false 
+#   end 
+# end
 
 def valid_phone_number?(phone)
   if phone.match(/\b\(?\d{3}\)?\s?-?\d{3}-?\s?\d{4}\b/)
