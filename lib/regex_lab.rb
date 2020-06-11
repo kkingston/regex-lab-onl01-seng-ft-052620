@@ -24,5 +24,5 @@ end
 # end
 
 def valid_phone_number?(phone)
-
+  phone.select(/\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/)
 end
